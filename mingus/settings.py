@@ -16,10 +16,10 @@ ROOT_URLCONF = 'mingus.urls'
 TIME_ZONE = 'America/New_York'
 SECRET_KEY = '+bq@o(jph^-*sfj4j%xukecxb0jae9lci&ysy=609hj@(l$47c'
 USE_I18N = False
-HONEYPOT_FIELD_NAME = 'fonzie_kungfu'
+HONEYPOT_FIELD_NAME = 'cryptonite_bailywick'
 
 MANAGERS = (
-    ('fooper','your@emailaddress'),
+    ('Rob Madole','robmadole@gmail.com'),
 )
 
 TEMPLATE_DIRS = (
@@ -91,5 +91,3 @@ try:
    from local_settings import *
 except ImportError:
    pass
-
-
